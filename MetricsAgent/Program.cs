@@ -1,15 +1,18 @@
-using MetricsAgent.Utils;
 using MetricsManager.DAL;
-using MetricsManager.MetricsAgentClient;
 using NLog.Web;
-using Polly;
-using System.Runtime.CompilerServices;
-
-[assembly: InternalsVisibleTo("MetricsManagerTests")]
+using MetricsAgent.Utils;
+using MetricsAgent.Configuration;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddEntityFrameworkSqlite()
+    .AddDbContext<MetricsDbContext>();
 
 builder.Services.AddLogging(loggingBuilder =>
 {
@@ -17,19 +20,19 @@ builder.Services.AddLogging(loggingBuilder =>
     loggingBuilder.AddNLog("nlog.config");
 });
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddHttpClient<IMetricsAgentClient, MetricsAgentClient>()
-    .AddTransientHttpErrorPolicy(p => p.WaitAndRetryAsync(3, _=> TimeSpan.FromMilliseconds(1000)));
-
-builder.Services.AddEntityFrameworkSqlite()
-    .AddDbContext<MetricsDbContext>();
-
 builder.Services.AddAutoMapper(typeof(AutomapperProfile));
 
+builder.Services.AddConfig(builder.Configuration);
 builder.Services.ConfigureDatabase(builder.Configuration);
 builder.Services.AddRepositories();
+
+builder.WebHost.ConfigureAppConfiguration((hostingContext, config) =>
+{
+    config.AddEFConfiguration(
+        options => options.UseSqlite("Filename=Metrics.db"));
+});
+
+builder.Services.AddScheduledJobs(builder.Configuration);
 
 var app = builder.Build();
 
@@ -45,10 +48,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
-using (var client = new MetricsDbContext())
-{
-    client.Database.EnsureCreated();
-}
 
 app.Run();

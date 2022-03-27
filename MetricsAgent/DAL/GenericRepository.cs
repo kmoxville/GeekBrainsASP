@@ -1,6 +1,5 @@
 ﻿using MetricsManager.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Collections;
 
 namespace MetricsManager.DAL
 {
@@ -55,16 +54,6 @@ namespace MetricsManager.DAL
         public IEnumerable<TEntity> GetAll()
         {
             return _dbSet.AsEnumerable();
-        }
-
-        public IEnumerator<TEntity> GetEnumerator()
-        {
-            return _dbSet.AsEnumerable().GetEnumerator();
-        }
-
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
         }
     }
 }

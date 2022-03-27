@@ -1,7 +1,6 @@
 ﻿namespace MetricsManager.DAL
 {
-    public interface IGenericRepository<TEntity> : IEnumerable<TEntity> 
-        where TEntity : class
+    public interface IGenericRepository<TEntity> where TEntity : class
     {
         void Delete(object id);
         void Delete(TEntity entityToDelete);

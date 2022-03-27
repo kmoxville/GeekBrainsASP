@@ -1,4 +1,6 @@
-﻿using MetricsManager.DAL;
+﻿using AutoMapper;
+using MetricsManager.DAL;
+using MetricsManager.MetricsAgentClient;
 using MetricsManager.Models;
 using MetricsManager.Requests;
 using MetricsManager.Responses;
@@ -11,34 +13,62 @@ namespace MetricsManager.Controllers
     [ApiController]
     public class CpuMetricsController : ControllerBase
     {
-        private readonly ICpuRepository _repository;
+        private readonly ICpuRepository _cpuRepository;
+        private readonly IAgentsRepository _agentsRepository;
         private readonly ILogger<CpuMetricsController> _logger;
+        private readonly IMapper _mapper;
+        private readonly IMetricsAgentClient _metricsClient;
 
-        public CpuMetricsController(ICpuRepository repository, ILogger<CpuMetricsController> logger)
+        public CpuMetricsController(ICpuRepository cpuRepository, 
+            ILogger<CpuMetricsController> logger, 
+            IAgentsRepository agentsRepository, 
+            IMapper mapper,
+            IMetricsAgentClient metricsClient)
         {
-            _repository = repository;
+            _cpuRepository = cpuRepository;
+            _agentsRepository = agentsRepository;
             _logger = logger;
+            _mapper = mapper;
+            _metricsClient = metricsClient;
         }
 
-        [HttpGet("api/metrics/cpu/from/{fromTime}/to/{toTime}")]
-        public IActionResult GetMetrics([FromRoute] TimeSpan fromTime, [FromRoute] TimeSpan toTime)
+        [HttpGet("agent/{agentId}/from/{fromTime}/to/{toTime}")]
+        public IActionResult GetMetrics([FromRoute] int agentId, [FromRoute] DateTime fromTime, [FromRoute] DateTime toTime)
         {
-            return Ok();
+            var agentInfo = _agentsRepository.FirstOrDefault(agentInfo => agentInfo.Id == agentId);
+
+            if (agentInfo == null)
+            {
+                return NotFound($"Agent with id {agentId} is not registered");
+            }
+
+            if (NeedToFetchData(agentId, toTime))
+            {
+                var lastDate = LastEntryDate(agentId);
+                FetchData(agentInfo, lastDate, toTime);
+            }
+
+            var metrics = _cpuRepository
+                .Where(metric => metric.AgentId == agentId && metric.Time >= fromTime && metric.Time < toTime);
+
+            var response = new CpuMetricsResponse();
+
+            foreach (var metric in metrics)
+            {
+                response.Metrics.Add(_mapper.Map<CpuMetricDto>(metric));
+            }
+
+            return Ok(response);
         }
 
         [HttpGet("all")]
         public IActionResult GetAll()
         {
-            var metrics = _repository.GetAll();
+            var response = new CpuMetricsResponse();
 
-            var response = new AllCpuMetricsResponse()
+            foreach (var metric in _cpuRepository)
             {
-                Metrics = new List<CpuMetricDto>()
-            };
-
-            foreach (var metric in metrics)
-            {
-                response.Metrics.Add(new CpuMetricDto { Time = metric.Time, Value = metric.Value, Id = metric.Id });
+                response.Metrics.Add(_mapper.Map<CpuMetricDto>(metric));
             }
 
             return Ok(response);
@@ -49,15 +79,52 @@ namespace MetricsManager.Controllers
         {
             _logger.LogInformation($"Insert called: {request}");
 
-            _repository.Insert(new CpuMetric
+            var newMetric = new CpuMetric
             {
                 Time = request.Time,
                 Value = request.Value
-            });
+            };
 
-            _repository.Save();
+            _cpuRepository.Insert(newMetric);
 
-            return Ok();
+            _cpuRepository.Save();
+
+            return CreatedAtAction(nameof(Insert), new { Time = request.Time, Value = request.Value }, newMetric);
         }
+
+        private void FetchData(AgentInfo agentInfo, DateTime fromTime, DateTime toTime)
+        {
+            var fromTimeQuery = fromTime.ToString("yyyy-MM-ddTHH:mm:ssZ");
+            var toTimeQuery = toTime.ToString("yyyy-MM-ddTHH:mm:ssZ");
+            var metricsRequest = new GetCpuMetricsRequest()
+            {
+                Uri = new Uri(agentInfo.Uri.ToString() + $"api/metrics/cpu/from/{fromTimeQuery}/to/{toTimeQuery}"),
+                From = fromTime,
+                To = toTime
+            };
+
+            var metrics = _metricsClient.GetCpuMetrics(metricsRequest);
+
+            if (metrics == null)
+                return;
+
+            foreach (var metric in metrics.Metrics)
+            {
+                _cpuRepository.Insert(new CpuMetric() { AgentId = agentInfo.Id, Time = metric.Time, Value = metric.Value });
+            }
+
+            _cpuRepository.Save();
+        }
+
+        internal bool NeedToFetchData(int agentId, DateTime toTime)
+        {
+            return LastEntryDate(agentId) < toTime;
+        }
+
+        internal DateTime LastEntryDate(int agentId)
+        {
+            return _cpuRepository.LastOrDefault(entry => entry.AgentId == agentId)?.Time - TimeSpan.FromSeconds(10) ?? DateTime.MinValue;
+        }
+
     }
 }
