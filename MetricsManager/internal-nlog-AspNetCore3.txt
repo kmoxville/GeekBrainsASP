@@ -1,0 +1,394 @@
+2022-01-30 22:36:31.0927 Info Message Template Auto Format enabled
+2022-01-30 22:36:31.0984 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-30 22:36:31.1248 Info Adding target FileTarget(Name=allfile)
+2022-01-30 22:36:31.1248 Info Adding target FileTarget(Name=ownFile-web)
+2022-01-30 22:36:31.1248 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-01-30 22:36:31.1248 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-01-30 22:36:31.1420 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-01-30 22:38:23.0477 Info Message Template Auto Format enabled
+2022-01-30 22:38:23.0477 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-30 22:38:23.0752 Info Adding target FileTarget(Name=allfile)
+2022-01-30 22:38:23.0752 Info Adding target FileTarget(Name=ownFile-web)
+2022-01-30 22:38:23.0752 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-01-30 22:38:23.0774 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-01-30 22:38:23.0774 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-19 16:18:28.8852 Info Message Template Auto Format enabled
+2022-03-19 16:18:28.8852 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-19 16:18:28.9111 Info Adding target FileTarget(Name=allfile)
+2022-03-19 16:18:28.9111 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-19 16:18:28.9111 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-19 16:18:28.9111 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-19 16:18:28.9264 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-19 16:18:30.0404 Info AppDomain Shutting down. Logger closing...
+2022-03-19 16:18:30.0404 Info Logger has been shut down.
+2022-03-19 18:17:01.3454 Info Message Template Auto Format enabled
+2022-03-19 18:17:01.3501 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-19 18:17:01.3750 Info Adding target FileTarget(Name=allfile)
+2022-03-19 18:17:01.3750 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-19 18:17:01.3750 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-19 18:17:01.3750 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-19 18:17:01.3912 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-19 18:19:41.7526 Info Message Template Auto Format enabled
+2022-03-19 18:19:41.7572 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-19 18:19:41.7920 Info Adding target FileTarget(Name=allfile)
+2022-03-19 18:19:41.7920 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-19 18:19:41.7920 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-19 18:19:41.7920 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-19 18:19:41.8124 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-19 18:20:56.8516 Info Message Template Auto Format enabled
+2022-03-19 18:20:56.8516 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-19 18:20:56.8806 Info Adding target FileTarget(Name=allfile)
+2022-03-19 18:20:56.8806 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-19 18:20:56.8806 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-19 18:20:56.8806 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-19 18:20:56.8962 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-19 18:34:02.0200 Info Message Template Auto Format enabled
+2022-03-19 18:34:02.0200 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-19 18:34:02.0488 Info Adding target FileTarget(Name=allfile)
+2022-03-19 18:34:02.0488 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-19 18:34:02.0488 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-19 18:34:02.0505 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-19 18:34:02.0505 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-19 18:34:30.5094 Info Message Template Auto Format enabled
+2022-03-19 18:34:30.5094 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-19 18:34:30.5359 Info Adding target FileTarget(Name=allfile)
+2022-03-19 18:34:30.5359 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-19 18:34:30.5359 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-19 18:34:30.5359 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-19 18:34:30.5511 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-19 18:45:52.4096 Info Message Template Auto Format enabled
+2022-03-19 18:45:52.4141 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-19 18:45:52.4372 Info Adding target FileTarget(Name=allfile)
+2022-03-19 18:45:52.4372 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-19 18:45:52.4372 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-19 18:45:52.4372 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-19 18:45:52.4531 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-19 18:48:05.7099 Info Message Template Auto Format enabled
+2022-03-19 18:48:05.7099 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-19 18:48:05.7381 Info Adding target FileTarget(Name=allfile)
+2022-03-19 18:48:05.7381 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-19 18:48:05.7381 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-19 18:48:05.7381 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-19 18:48:05.7539 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-19 18:56:33.3396 Info Message Template Auto Format enabled
+2022-03-19 18:56:33.3396 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-19 18:56:33.3674 Info Adding target FileTarget(Name=allfile)
+2022-03-19 18:56:33.3674 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-19 18:56:33.3674 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-19 18:56:33.3674 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-19 18:56:33.3830 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-19 18:58:24.0659 Info Message Template Auto Format enabled
+2022-03-19 18:58:24.0706 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-19 18:58:24.0941 Info Adding target FileTarget(Name=allfile)
+2022-03-19 18:58:24.0941 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-19 18:58:24.0941 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-19 18:58:24.0941 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-19 18:58:24.1096 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-19 18:59:35.2108 Info Message Template Auto Format enabled
+2022-03-19 18:59:35.2108 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-19 18:59:35.2381 Info Adding target FileTarget(Name=allfile)
+2022-03-19 18:59:35.2381 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-19 18:59:35.2381 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-19 18:59:35.2381 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-19 18:59:35.2553 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-19 19:00:24.3937 Info Message Template Auto Format enabled
+2022-03-19 19:00:24.3937 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-19 19:00:24.4232 Info Adding target FileTarget(Name=allfile)
+2022-03-19 19:00:24.4232 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-19 19:00:24.4245 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-19 19:00:24.4245 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-19 19:00:24.4245 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-21 22:32:09.8579 Info Message Template Auto Format enabled
+2022-03-21 22:32:09.8579 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 22:32:09.8936 Info Adding target FileTarget(Name=allfile)
+2022-03-21 22:32:09.8936 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-21 22:32:09.8936 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-21 22:32:09.8960 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-21 22:32:09.9136 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-21 22:37:49.6840 Info Message Template Auto Format enabled
+2022-03-21 22:37:49.6840 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 22:37:49.7156 Info Adding target FileTarget(Name=allfile)
+2022-03-21 22:37:49.7156 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-21 22:37:49.7156 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-21 22:37:49.7156 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-21 22:37:49.7319 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-21 22:38:20.4425 Info Message Template Auto Format enabled
+2022-03-21 22:38:20.4425 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 22:38:20.4704 Info Adding target FileTarget(Name=allfile)
+2022-03-21 22:38:20.4704 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-21 22:38:20.4704 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-21 22:38:20.4704 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-21 22:38:20.4858 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-21 22:39:44.6746 Info Message Template Auto Format enabled
+2022-03-21 22:39:44.6826 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 22:39:44.7077 Info Adding target FileTarget(Name=allfile)
+2022-03-21 22:39:44.7077 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-21 22:39:44.7089 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-21 22:39:44.7089 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-21 22:39:44.7089 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-21 22:44:22.3166 Info Message Template Auto Format enabled
+2022-03-21 22:44:22.3207 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 22:44:22.3419 Info Adding target FileTarget(Name=allfile)
+2022-03-21 22:44:22.3419 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-21 22:44:22.3419 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-21 22:44:22.3419 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-21 22:44:22.3561 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-21 23:28:11.1627 Info Message Template Auto Format enabled
+2022-03-21 23:28:11.1627 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 23:28:11.1904 Info Adding target FileTarget(Name=allfile)
+2022-03-21 23:28:11.1904 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-21 23:28:11.1904 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-21 23:28:11.1904 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-21 23:28:11.2059 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-21 23:31:28.5668 Info Message Template Auto Format enabled
+2022-03-21 23:31:28.5714 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 23:31:28.5940 Info Adding target FileTarget(Name=allfile)
+2022-03-21 23:31:28.5940 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-21 23:31:28.5940 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-21 23:31:28.5940 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-21 23:31:28.6086 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-21 23:45:30.0350 Info Message Template Auto Format enabled
+2022-03-21 23:45:30.0393 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 23:45:30.0631 Info Adding target FileTarget(Name=allfile)
+2022-03-21 23:45:30.0631 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-21 23:45:30.0631 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-21 23:45:30.0631 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-21 23:45:30.0792 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-26 23:37:04.8396 Info Message Template Auto Format enabled
+2022-03-26 23:37:04.8457 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-26 23:37:04.8726 Info Adding target FileTarget(Name=allfile)
+2022-03-26 23:37:04.8726 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-26 23:37:04.8740 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-26 23:37:04.8740 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-26 23:37:04.8895 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-26 23:38:29.4311 Info Message Template Auto Format enabled
+2022-03-26 23:38:29.4369 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-26 23:38:29.4700 Info Adding target FileTarget(Name=allfile)
+2022-03-26 23:38:29.4700 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-26 23:38:29.4700 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-26 23:38:29.4700 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-26 23:38:29.4949 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-26 23:39:56.0174 Info Message Template Auto Format enabled
+2022-03-26 23:39:56.0174 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-26 23:39:56.0476 Info Adding target FileTarget(Name=allfile)
+2022-03-26 23:39:56.0476 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-26 23:39:56.0476 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-26 23:39:56.0476 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-26 23:39:56.0642 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-26 23:39:56.2469 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-26 23:39:56.2469 Info Message Template Auto Format enabled
+2022-03-26 23:39:56.2469 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-26 23:39:56.2469 Info Adding target FileTarget(Name=allfile)
+2022-03-26 23:39:56.2469 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-26 23:39:56.2469 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-26 23:39:56.2469 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-26 23:39:56.2490 Info Closing old configuration.
+2022-03-26 23:39:56.2694 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 12:47:30.4765 Info Message Template Auto Format enabled
+2022-03-27 12:47:30.4765 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 12:47:30.5045 Info Adding target FileTarget(Name=allfile)
+2022-03-27 12:47:30.5045 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 12:47:30.5045 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 12:47:30.5045 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 12:47:30.5202 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 12:47:30.6027 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-27 12:47:30.6027 Info Message Template Auto Format enabled
+2022-03-27 12:47:30.6027 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 12:47:30.6027 Info Adding target FileTarget(Name=allfile)
+2022-03-27 12:47:30.6027 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 12:47:30.6027 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 12:47:30.6027 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 12:47:30.6027 Info Closing old configuration.
+2022-03-27 12:47:30.6208 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:03:47.1727 Info Message Template Auto Format enabled
+2022-03-27 13:03:47.1727 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:03:47.2053 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:03:47.2053 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:03:47.2053 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:03:47.2053 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:03:47.2225 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:03:47.3110 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-27 13:03:47.3110 Info Message Template Auto Format enabled
+2022-03-27 13:03:47.3110 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:03:47.3110 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:03:47.3110 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:03:47.3110 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:03:47.3110 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:03:47.3110 Info Closing old configuration.
+2022-03-27 13:03:47.3295 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:06:42.1823 Info Message Template Auto Format enabled
+2022-03-27 13:06:42.1870 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:06:42.2100 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:06:42.2100 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:06:42.2100 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:06:42.2100 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:06:42.2258 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:06:42.3076 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-27 13:06:42.3076 Info Message Template Auto Format enabled
+2022-03-27 13:06:42.3076 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:06:42.3076 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:06:42.3076 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:06:42.3076 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:06:42.3076 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:06:42.3076 Info Closing old configuration.
+2022-03-27 13:06:42.3241 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:10:01.0283 Info Message Template Auto Format enabled
+2022-03-27 13:10:01.0337 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:10:01.0580 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:10:01.0580 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:10:01.0580 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:10:01.0580 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:10:01.0745 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:10:01.1645 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-27 13:10:01.1645 Info Message Template Auto Format enabled
+2022-03-27 13:10:01.1645 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:10:01.1645 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:10:01.1645 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:10:01.1645 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:10:01.1645 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:10:01.1645 Info Closing old configuration.
+2022-03-27 13:10:01.1811 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:25:28.9583 Info Message Template Auto Format enabled
+2022-03-27 13:25:28.9583 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:25:28.9865 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:25:28.9865 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:25:28.9865 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:25:28.9865 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:25:29.0019 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:25:29.0803 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-27 13:25:29.0803 Info Message Template Auto Format enabled
+2022-03-27 13:25:29.0803 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:25:29.0803 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:25:29.0803 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:25:29.0803 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:25:29.0803 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:25:29.0803 Info Closing old configuration.
+2022-03-27 13:25:29.0968 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:33:29.1351 Info Message Template Auto Format enabled
+2022-03-27 13:33:29.1351 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:33:29.1658 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:33:29.1658 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:33:29.1658 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:33:29.1658 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:33:29.1871 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:33:29.2891 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-27 13:33:29.2891 Info Message Template Auto Format enabled
+2022-03-27 13:33:29.2891 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:33:29.2891 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:33:29.2891 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:33:29.2891 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:33:29.2891 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:33:29.2891 Info Closing old configuration.
+2022-03-27 13:33:29.3103 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:37:47.1833 Info Message Template Auto Format enabled
+2022-03-27 13:37:47.1877 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:37:47.2118 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:37:47.2118 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:37:47.2118 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:37:47.2118 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:37:47.2279 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:37:47.3099 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-27 13:37:47.3099 Info Message Template Auto Format enabled
+2022-03-27 13:37:47.3099 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:37:47.3099 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:37:47.3099 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:37:47.3099 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:37:47.3114 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:37:47.3114 Info Closing old configuration.
+2022-03-27 13:37:47.3275 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:47:54.0141 Info Message Template Auto Format enabled
+2022-03-27 13:47:54.0185 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:47:54.0442 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:47:54.0442 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:47:54.0459 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:47:54.0459 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:47:54.0621 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 13:47:54.1513 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-27 13:47:54.1513 Info Message Template Auto Format enabled
+2022-03-27 13:47:54.1513 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 13:47:54.1513 Info Adding target FileTarget(Name=allfile)
+2022-03-27 13:47:54.1513 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 13:47:54.1513 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 13:47:54.1513 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 13:47:54.1513 Info Closing old configuration.
+2022-03-27 13:47:54.1692 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 14:01:15.0741 Info Message Template Auto Format enabled
+2022-03-27 14:01:15.0787 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 14:01:15.1070 Info Adding target FileTarget(Name=allfile)
+2022-03-27 14:01:15.1081 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 14:01:15.1081 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 14:01:15.1081 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 14:01:15.1273 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 14:01:15.2204 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-27 14:01:15.2204 Info Message Template Auto Format enabled
+2022-03-27 14:01:15.2204 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 14:01:15.2204 Info Adding target FileTarget(Name=allfile)
+2022-03-27 14:01:15.2204 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 14:01:15.2204 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 14:01:15.2204 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 14:01:15.2204 Info Closing old configuration.
+2022-03-27 14:01:15.2401 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 14:04:28.7542 Info Message Template Auto Format enabled
+2022-03-27 14:04:28.7542 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 14:04:28.7821 Info Adding target FileTarget(Name=allfile)
+2022-03-27 14:04:28.7821 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 14:04:28.7821 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 14:04:28.7821 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 14:04:28.7977 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 14:04:28.8791 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-27 14:04:28.8791 Info Message Template Auto Format enabled
+2022-03-27 14:04:28.8791 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 14:04:28.8791 Info Adding target FileTarget(Name=allfile)
+2022-03-27 14:04:28.8791 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 14:04:28.8791 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 14:04:28.8791 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 14:04:28.8791 Info Closing old configuration.
+2022-03-27 14:04:28.8969 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 16:00:13.0475 Info Message Template Auto Format enabled
+2022-03-27 16:00:13.0475 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 16:00:13.0748 Info Adding target FileTarget(Name=allfile)
+2022-03-27 16:00:13.0748 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 16:00:13.0748 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 16:00:13.0748 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 16:00:13.0910 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 16:00:13.1746 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-27 16:00:13.1746 Info Message Template Auto Format enabled
+2022-03-27 16:00:13.1746 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 16:00:13.1746 Info Adding target FileTarget(Name=allfile)
+2022-03-27 16:00:13.1746 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 16:00:13.1746 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 16:00:13.1746 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 16:00:13.1746 Info Closing old configuration.
+2022-03-27 16:00:13.1923 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 16:16:45.6497 Info Message Template Auto Format enabled
+2022-03-27 16:16:45.6497 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 16:16:45.6768 Info Adding target FileTarget(Name=allfile)
+2022-03-27 16:16:45.6768 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 16:16:45.6768 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 16:16:45.6768 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 16:16:45.6934 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 16:16:45.7888 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-27 16:16:45.7888 Info Message Template Auto Format enabled
+2022-03-27 16:16:45.7888 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 16:16:45.7888 Info Adding target FileTarget(Name=allfile)
+2022-03-27 16:16:45.7888 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 16:16:45.7888 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 16:16:45.7888 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 16:16:45.7888 Info Closing old configuration.
+2022-03-27 16:16:45.8056 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 22:24:11.1835 Info Message Template Auto Format enabled
+2022-03-27 22:24:11.1917 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 22:24:11.2212 Info Adding target FileTarget(Name=allfile)
+2022-03-27 22:24:11.2212 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 22:24:11.2212 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 22:24:11.2212 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 22:24:11.2405 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config
+2022-03-27 22:24:11.3395 Info Configuring from an XML element in C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config...
+2022-03-27 22:24:11.3395 Info Message Template Auto Format enabled
+2022-03-27 22:24:11.3395 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-27 22:24:11.3395 Info Adding target FileTarget(Name=allfile)
+2022-03-27 22:24:11.3395 Info Adding target FileTarget(Name=ownFile-web)
+2022-03-27 22:24:11.3395 Warn Skipping unrecognized property 'tolower=true` for ${level} (NLog.LayoutRenderers.LevelLayoutRenderer)
+2022-03-27 22:24:11.3395 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-03-27 22:24:11.3395 Info Closing old configuration.
+2022-03-27 22:24:11.3581 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=65, FilePath=C:\Users\alexk\source\repos\GeekBrainsASP\GeekBrainsASP\MetricsManager\bin\Debug\net6.0\nlog.config

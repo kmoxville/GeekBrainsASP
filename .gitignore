@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/MetricsManager/Metrics.db-wal
+/MetricsManager/Metrics.db-shm
+/MetricsManager/Metrics.db
